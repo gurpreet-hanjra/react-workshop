@@ -8,13 +8,6 @@ import List from './List';
 
 class App extends Component {
 
-  handleSearchUpdate = (results) => {
-    console.log('handleSearchUpdate', results);
-    this.setState({
-      results: results
-    })
-  }
-
   render() {
     return (
       <div className="App">
@@ -25,9 +18,6 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <JSX />
-        <Search updateSearch={this.handleSearchUpdate} />
-        <List results={this.state} />
       </div>
     );
   }

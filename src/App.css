@@ -22,3 +22,18 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.list-item {
+  float: left;
+  min-height: 345px;
+  max-width: 200px;
+}
+
+.sampleTerms {
+    display: inline-block;
+}
+
+.sampleTerms li {
+  display: inline-block;
+  margin-right: 20px;
+}
